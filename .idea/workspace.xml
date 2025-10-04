@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1161645d-05d3-4a8f-a112-ce31f81dbb04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Odoo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/EncryptionConfig.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/Key_Generation.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/README.dataset.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/README.roboflow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/appv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/appv2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/contacts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/data.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/app.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/appv1.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/contacts.json" beforeDir="false" />
@@ -68,6 +81,7 @@
       <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/templates/police_stations.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/my_twilio_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/panic_detector_svm(4).pkl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/predictv12.py" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/predictv12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/predict2/2_jpg.rf.a740882e5a4c0991724aa0225431d237.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/predict3/2_jpg.rf.a740882e5a4c0991724aa0225431d237.jpg" beforeDir="false" />
@@ -104,14 +118,23 @@
       <change beforePath="$PROJECT_DIR$/FrontEnd/test_img_ggl.jpeg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/train.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/trial_1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/yolov8s.pt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ATLAS" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FrontEnd" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -123,6 +146,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "<unknown>",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
