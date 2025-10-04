@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Live Feed</h3>
+<div class="row g-3">
+  <!-- Pre-recorded/looping feeds -->
+  <div class="col-md-4">
+    <div class="card">
+      <video class="card-img-top" controls autoplay muted loop playsinline
+             src="{{ url_for('static', filename='videos/video1.mp4') }}"></video>
+      <div class="card-body"><small>Camera 1 (looped video)</small></div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <video class="card-img-top" controls autoplay muted loop playsinline
+             src="{{ url_for('static', filename='videos/video2.mp4') }}"></video>
+      <div class="card-body"><small>Camera 2 (looped video)</small></div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <video class="card-img-top" controls autoplay muted loop playsinline
+             src="{{ url_for('static', filename='videos/video3.mp4') }}"></video>
+      <div class="card-body"><small>Camera 3 (looped video)</small></div>
+    </div>
+  </div>
+
+  <!-- Laptop camera: starts when user grants permission -->
+  <div class="col-12 mt-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Laptop Camera</h5>
+        <video id="localCam" autoplay playsinline muted style="width:100%;height:auto;background:#000;"></video>
+        <div class="mt-2">
+          <button id="startCam" class="btn btn-primary">Start Laptop Camera</button>
+          <button id="stopCam" class="btn btn-secondary">Stop</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{{ url_for('static', filename='js/livecam.js') }}"></script>
+
+
+
+{% endblock %}

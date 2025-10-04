@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1161645d-05d3-4a8f-a112-ce31f81dbb04" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/FrontEnd/EncryptionConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/Key_Generation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/README.dataset.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/README.roboflow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/appv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/appv2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/contacts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/appv1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/contacts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758743230.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758743575.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758746268.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758746454.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758746738.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758746882.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758747515.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758773552.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758773552.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758773562.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/detection_clips/clip_1758773562.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/panic_detector_svm(4).pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/predictv11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/predict2/2_jpg.rf.a740882e5a4c0991724aa0225431d237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/predict3/2_jpg.rf.a740882e5a4c0991724aa0225431d237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/predict5/real-video-434-_jpg.rf.4d687d7646274557f345f641fe24a2e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/predict6/test_img_ggl.jpeg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train2/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/BoxF1_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/BoxPR_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/BoxP_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/BoxR_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/confusion_matrix_normalized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/train_batch0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/train_batch1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/train_batch15200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/train_batch15201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/train_batch15202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/train_batch2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/val_batch0_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/val_batch0_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/val_batch1_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/val_batch1_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/val_batch2_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/val_batch2_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/weights/best.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/runs/detect/train3/weights/last.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/static/js/livecam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/static/videos/video1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/static/videos/video2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/static/videos/video3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/templates/live_feed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/templates/live_threats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/templates/neutralized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/frontend/templates/police_stations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/my_twilio_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/predictv12.py" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/predictv12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/predict2/2_jpg.rf.a740882e5a4c0991724aa0225431d237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/predict3/2_jpg.rf.a740882e5a4c0991724aa0225431d237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/predict5/real-video-434-_jpg.rf.4d687d7646274557f345f641fe24a2e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/predict6/test_img_ggl.jpeg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train2/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/BoxF1_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/BoxPR_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/BoxP_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/BoxR_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/confusion_matrix_normalized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/train_batch0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/train_batch1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/train_batch15200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/train_batch15201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/train_batch15202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/train_batch2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/val_batch0_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/val_batch0_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/val_batch1_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/val_batch1_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/val_batch2_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/val_batch2_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/weights/best.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/runs/detect/train3/weights/last.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/static/css/livecam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/test1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/test_img_ggl.jpeg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/trial_1.mp4" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ATLAS" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="33afybzkQ32gtHveCC8j6KHXq7V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "<unknown>",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Odoo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1161645d-05d3-4a8f-a112-ce31f81dbb04" name="Changes" comment="" />
+      <created>1759560358820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759560358820</updated>
+    </task>
+    <servers />
+  </component>
+</project>

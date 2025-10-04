@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Neutralized Threats Log</h3>
+<div id="neutralizedContainer"></div>
+
+<script>
+async function loadNeutralized(){
+  const res = await fetch('/api/neutralized');
+  if(!res.ok){
+    document.getElementById('neutralizedContainer').innerHTML =
+      '<div class="alert alert-danger">Could not fetch neutralized entries</div>';
+    return;
+  }
+  const arr = await res.json();
+  const c = document.getElementById('neutralizedContainer');
+  c.innerHTML = '';
+  if(arr.length === 0){
+    c.innerHTML = '<div class="alert alert-info">No neutralized entries yet.</div>';
+    return;
+  }
+  arr.forEach(t => {
+    const card = document.createElement('div');
+    card.className = 'card mb-3';
+
+    // Show snapshot image instead of video
+    let imgHtml = t.gridfs_snapshot_id
+      ? `<img src="{{ url_for('get_file', file_id='') }}${t.gridfs_snapshot_id}"
+              alt="Snapshot" class="img-fluid rounded shadow-sm mb-2"/>`
+      : '<div class="alert alert-secondary p-2">No snapshot available</div>';
+
+    card.innerHTML = `<div class="card-body">
+      <h5>${t.description || 'No description'}</h5>
+      <ul class="list-group mb-2">
+        <li class="list-group-item"><strong>Status:</strong> ${t.status || 'Unknown'}</li>
+        <li class="list-group-item"><strong>Officer:</strong> ${t.officer || 'Unassigned'}</li>
+        <li class="list-group-item"><strong>Location:</strong> ${t.location || 'Unknown'}</li>
+        <li class="list-group-item"><strong>Camera:</strong> ${t.camera || 'N/A'}</li>
+        <li class="list-group-item"><strong>Time:</strong> ${new Date(t.timestamp).toLocaleString()}</li>
+      </ul>
+      ${imgHtml}
+    </div>`;
+    c.appendChild(card);
+  });
+}
+
+window.onload = () => {
+  loadNeutralized();
+};
+</script>
+{% endblock %}

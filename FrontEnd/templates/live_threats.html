@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Live Threats</h3>
+<div id="threatsContainer"></div>
+
+<script>
+async function loadThreats(){
+  const res = await fetch("{{ url_for('api_threats') }}");  // ✅ fixed endpoint
+  if(!res.ok){
+    document.getElementById('threatsContainer').innerHTML =
+      '<div class="alert alert-danger">Could not fetch threats</div>';
+    return;
+  }
+  const arr = await res.json();
+  const c = document.getElementById('threatsContainer');
+  c.innerHTML = '';
+  if(arr.length === 0){
+    c.innerHTML = '<div class="alert alert-info">No live threats at this time.</div>';
+    return;
+  }
+  arr.forEach(t => {
+    const card = document.createElement('div');
+    card.className = 'card mb-3';
+
+    // Build snapshot image URL (no video)
+    let imgHtml = t.gridfs_snapshot_id
+      ? `<img src="{{ url_for('get_file', file_id='') }}${t.gridfs_snapshot_id}"
+              alt="Snapshot" class="img-fluid rounded shadow-sm mb-2"/>`
+      : '<div class="alert alert-secondary p-2">No snapshot available</div>';
+
+    card.innerHTML = `
+      <div class="card-header">
+        <strong>Threat:</strong> ${t.description || 'No description'}
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-7">
+            ${imgHtml}
+          </div>
+          <div class="col-md-5">
+            <ul class="list-group">
+              <li class="list-group-item"><strong>Status:</strong> ${t.status || 'Unknown'}</li>
+              <li class="list-group-item"><strong>Officer:</strong> ${t.officer || 'Unassigned'}</li>
+              <li class="list-group-item"><strong>Location:</strong> ${t.location || 'Unknown'}</li>
+              <li class="list-group-item"><strong>Camera:</strong> ${t.camera || 'N/A'}</li>
+              <li class="list-group-item"><strong>Time:</strong> ${new Date(t.timestamp).toLocaleString()}</li>
+            </ul>
+            <div class="mt-3">
+              <button class="btn btn-success w-100" onclick="neutralize('${t.id}')">
+                Mark as Neutralized
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>`;
+    c.appendChild(card);
+  });
+}
+
+async function neutralize(id){
+  if(!confirm('Are you sure you want to mark this threat as neutralized?')) return;
+  const res = await fetch("{{ url_for('api_neutralize', id='') }}" + id, { method: 'POST' }); // ✅ fixed endpoint
+  if(res.ok){
+    loadThreats();
+  } else {
+    const j = await res.json();
+    alert('Failed to update status: ' + (j.error || 'unknown error'));
+  }
+}
+
+window.onload = () => {
+  loadThreats();
+  setInterval(loadThreats, 5000);
+};
+</script>
+{% endblock %}
